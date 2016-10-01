@@ -1,0 +1,23 @@
+{
+    "name": "iaejean/task",
+    "description": "Test tasks",
+    "type": "project",
+    "require": {
+        "php": ">=7",
+        "jms-serializer/serializer": "1.3.*",
+        "peej/tonic": "3.*",
+        "beelab/bowerphp": "0.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iaejean\\": "src/Iaejean/"
+        }
+    },
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Israel Hernandez",
+            "email": "iaejeanx@gmail.com"
+        }
+    ]
+}

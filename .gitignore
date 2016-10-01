@@ -1,0 +1,4 @@
+vendor
+composer.lock
+web/js/libs
+.idea

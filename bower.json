@@ -1,0 +1,22 @@
+{
+    "name": "test",
+    "authors": [
+        "Israel Hernandez Valle <iaejeanx@gmail.com>"
+    ],
+    "private": true,
+    "dependencies": {
+        "angular-bootstrap": "*",
+        "angular-route": "*",
+        "requirejs": "*",
+        "requirejs-text": "*",
+        "requirejs-router": "*",
+        "requirejs-domready": "*",
+        "angularAMD": "*",
+        "angular-ui-router": "*",
+        "angular-resource": "*",
+        "bootstrap": "*",
+        "angular-animate": "*",
+        "angular-sanitize": "*",
+        "angular-loading-bar": "*"
+    }
+}

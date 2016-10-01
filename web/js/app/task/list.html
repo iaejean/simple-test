@@ -1,0 +1,22 @@
+<table class="table" ng-controller="taskController">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descripcion</th>
+            <th>Hora Ejecucion</th>
+            <th>Ejecutar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="task in tasks">
+            <td>{{ task.id }}</td>
+            <td>{{ task.description }}</td>
+            <td>{{ task.executionTime }}</td>
+            <td>
+                <div ng-if="task.finished !== '1'">
+                    <input type="checkbox" ng-click="update(task, check)" ng-model="check">
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+{
+  "directory": "web/js/libs",
+  "timeout": 120000,
+  "color": true,
+  "save": true,
+  "registry": {
+    "search": [
+      "https://bower.herokuapp.com"
+    ]
+  }
+}

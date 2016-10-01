@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Test</title>
+        <link rel="stylesheet" href="web/js/libs/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="web/js/libs/angular-bootstrap/ui-bootstrap-csp.css" />
+        <link rel="stylesheet" href="web/js/libs/angular-loading-bar/build/loading-bar.min.css" />
+    </head>
+    <body>
+        <header
+                class="navbar navbar-default navbar-fixed-top navbar-static-top navbar-inner navbar-inverse"
+                ng-include="'web/js/app/navMenu/navMenu.html'">
+        </header>
+        <br/><br/><br/>
+        <div id="wrapper"><div class="container" data-ui-view></div></div>
+        <script src="web/js/libs/requirejs/require.js" data-main="web/js/app/main.js"></script>
+    </body>
+</html>

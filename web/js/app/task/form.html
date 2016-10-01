@@ -1,0 +1,29 @@
+<form class="form-horizontal">
+    <fieldset>
+
+        <legend>Task</legend>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="id">ID</label>
+            <div class="col-md-4">
+                <input id="id" name="id" type="text" placeholder="placeholder" class="form-control input-md" required ng-model="task.id">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="description">Descripcion</label>
+            <div class="col-md-4">
+                <input id="description" name="description" type="text" placeholder="placeholder" required class="form-control input-md" ng-model="task.description">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="button1id"></label>
+            <div class="col-md-8">
+                <button id="button1id" name="button1id" class="btn btn-success" type="button" ng-click="add()">Guardar</button>
+                <button id="button2id" name="button2id" class="btn btn-danger"  type="button"  ng-click="reset()">cancelar</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
